@@ -2,7 +2,7 @@
 <html>
   <head>
 	  
-    <script type="text/javascript" src="web/odin.js"></script>
+    <script type="text/javascript" src="odin.js"></script>
     <script type="text/javascript">
       async function init() {
 
@@ -18,7 +18,7 @@
       },
     }
 
-        await odin.runWasm("web/index.wasm", null, {extern_functions}, memInterface);
+        await odin.runWasm("odin_wasm.wasm", null, {extern_functions}, memInterface);
         // Now after the WASM module is loaded, we can access our exported functions.
         const exports = memInterface.exports;
 
