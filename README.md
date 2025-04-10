@@ -5,6 +5,8 @@ Torbris, a block game written in pico8 [try it](https://apollon64.github.io/torb
 
 wasm and odin drawing on canvas [try it](https://apollon64.github.io/odin_wasm.html).
 
+wasm and odin drawing a spinning cube on canvas [try it](https://apollon64.github.io/spin_cube/spin_cube.html).
+
 <!--
 **apollon64/apollon64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
